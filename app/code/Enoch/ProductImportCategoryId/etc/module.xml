@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @description Catalog Import-Export module customizations
+ *
+ * @author     Enoch Data Systems <https://data.enoch.systems>
+ * @author     C. M. de Picciotto <cmdepi@enochsystems.com>
+ * @copyright  Copyright 2018 Enoch Systems LLC
+ * @license    Apache License 2.0
+ * @package    ProductImportCategoryId
+ * @version    1.0.0
+ * @link       https://github.com/enochsystems/ProductImportCategoryId
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Enoch_ProductImportCategoryId" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_ProductImportCategoryId"/>
+        </sequence>
+    </module>
+</config>

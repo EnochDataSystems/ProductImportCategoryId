@@ -1,0 +1,22 @@
+{
+    "name": "enoch/module-product-import-category-id",
+    "description": "Improved Magento Product Import with Category ID",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "homepage": "https://data.enoch.systems/",
+    "authors": [
+        {
+            "name": "Enoch Data Systems",
+            "email": "info@enochsystems.com",
+            "homepage": "https://data.enoch.systems/",
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Enoch\\ProductImportCategoryId\\": ""
+        }
+    }
+}
